@@ -27,8 +27,6 @@ bool logged_in;
 
 int stat;
 int in_process;
-
-int char_count;
 int bail_count;
 
 String input = "";
@@ -40,7 +38,6 @@ void setup() {
     has_changed = false;
     stat = 0;
     in_process = 0;
-    char_count  = 0;
     bail_count = 0;
     lcd.begin(16, 2);
     lcd.clear();
